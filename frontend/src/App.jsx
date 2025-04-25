@@ -49,10 +49,6 @@ function App() {
           <Header onRefresh={fetchData} isRefreshing={isRefreshing} />
           <CryptoTable />
           
-          <div className="mt-6 text-center text-gray-500 text-sm">
-            <p>Data refreshes automatically every few seconds. Click Refresh for latest data.</p>
-            <p className="mt-1">© 2025 CryptoDash. Powered by CoinGecko API.</p>
-          </div>
         </div>
       </div>
     </Provider>
