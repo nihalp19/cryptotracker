@@ -48,7 +48,6 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <Header onRefresh={fetchData} isRefreshing={isRefreshing} />
           <CryptoTable />
-          
         </div>
       </div>
     </Provider>
